@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width,   initial-scale=1.0">
 	<title>ActiveBox</title>
 	<link rel="stylesheet"  href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Cardo:400,400i|Open+Sans:400,700|Raleway:300,400,600,700&display=swap" rel="stylesheet">
+	
+	 
 </head>
     <body>
-	<header class="header">
+	<header class="header" id="header">
 		<div class="container">
 			<div class="header__row">
 				<div class="header__logo">
@@ -23,12 +25,15 @@
 						<li><a href="#" class="link">Testimonials</a></li>
 						<li><a href="#" class="link">Download</a></li>
 					</ul>
+					<button class="burger" type="button">
+						<span class="burger__item">Menu</span>
+					</button>
 				</div>
 			</div>
 
 		</div>
 	</header>
-	<div class="intro">
+	<div class="intro" id="intro">
 		<div class="container">
 			<div class="intro_body">
 			<div class="intro__tittle">                   Your Favorite One Page
@@ -43,7 +48,8 @@
 	<div class="columns">
 		<div class="container">
 			<div class="columns__row">
-				<div class="column">
+
+				<div class="column__top">
 					<div class="column__inner">
 						<div class="column__icon">
 							<img src="img/icon1.png" alt="icon">
@@ -53,42 +59,46 @@
 					</div>
 						<div class="column__inner">
 						<div class="column__icon">
-							<img src="img/icon2.png" alt="icon">
+							<img src="img/icon3.png" alt="icon">
 						</div>
 						<div class="column__title">Clean Code</div>
 						<div class="column__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla </div>
 					</div>
+					
+						<div class="column__inner">
+						<div class="column__icon">
+							<img src="img/icon5.png" alt="icon">
+						</div>
+						<div class="column__title">Download for Free</div>
+						<div class="column__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla </div>
+					</div>
 				</div>
-				<div class="column">
+				
+				</div>
+				<div class="columns__row">
+				<div class="column__bottom">
 					<div class="column__inner">
 						<div class="column__icon">
-							<img src="img/icon3.png" alt="icon">
+							<img src="img/icon2.png" alt="icon">
 						</div>
 						<div class="column__title">Responsive REady</div>
-						<div class="column__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</div>
+						<div class="column__text"><p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla</p> </div>
 					</div>
 						<div class="column__inner">
 						<div class="column__icon">
 							<img src="img/icon4.png" alt="icon">
 						</div>
 						<div class="column__title">Ready to Ship</div>
-						<div class="column__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</div>
+						<div class="column__text"><p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla</p> </div>
 					</div>
-				</div>
-				<div class="column">
-					<div class="column__inner">
-						<div class="column__icon">
-							<img src="img/icon5.png" alt="icon">
-						</div>
-						<div class="column__title">Modern Design</div>
-						<div class="column__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</div>
-					</div>
+
+
 						<div class="column__inner">
 						<div class="column__icon">
 							<img src="img/icon6.png" alt="icon">
 						</div>
-						<div class="column__title">Download for Free</div>
-						<div class="column__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</div>
+						<div class="column__title">Modern Design</div>
+						<div class="column__text"><p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla </p></div>
 					</div>
 				</div>
 			</div>
@@ -162,12 +172,14 @@
 						<img src="img/img1.png" alt="face">
 					</div>
 					<div class="profile__name">Ruth Woods</div>
-					<div class="profile__position">Founder, CEO</div>
-					<div class="profile__info">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</div>
+					<div class="profile__position">Founder, CEO
+					</div>
+					<div class="profile__info"><p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+					</div>
 					<div class="profile__media">
-						<img src="img/icon7.svg" alt="facebook">
-						<img src="img/icon8.svg" alt="twitter">
-						<img src="img/icon9.svg" alt="in">
+						<a href="#" class="media__link"><img src="img/icon7.svg" alt="facebook"></a>
+						<a href="#" class="media__link"><img src="img/icon8.svg" alt="facebook"></a>
+						<a href="#" class="media__link"><img src="img/icon9.svg" alt="facebook"></a>
 					</div>
 				</div>
 				<div class="profile__icon">
@@ -175,12 +187,14 @@
 						<img src="img/img2.png" alt="face">
 					</div>
 					<div class="profile__name">Timothy Reed</div>
-					<div class="profile__position">Co-Founder, Developer</div>
-					<div class="profile__info">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</div>
+					<div class="profile__position">Co-Founder, Developer
+					</div>
+					<div class="profile__info"><p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+					</div>
 					<div class="profile__media">
-						<img src="img/icon7.svg" alt="facebook">
-						<img src="img/icon8.svg" alt="twitter">
-						<img src="img/icon9.svg" alt="in">
+						<a href="#" class="media__link"><img src="img/icon7.svg" alt="facebook"></a>
+						<a href="#" class="media__link"><img src="img/icon8.svg" alt="facebook"></a>
+						<a href="#" class="media__link"><img src="img/icon9.svg" alt="facebook"></a>
 					</div>
 				</div>
 				<div class="profile__icon">
@@ -189,11 +203,12 @@
 					</div>
 					<div class="profile__name">Ruth Woods</div>
 					<div class="profile__position">UI Designer</div>
-					<div class="profile__info">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu .</div>
+					<div class="profile__info"><p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu .</p>
+					</div>
 					<div class="profile__media">
-						<img src="img/icon7.svg" alt="facebook">
-						<img src="img/icon8.svg" alt="twitter">
-						<img src="img/icon9.svg" alt="in">
+						<a href="#" class="media__link"><img src="img/icon7.svg" alt="facebook"></a>
+						<a href="#" class="media__link"><img src="img/icon8.svg" alt="facebook"></a>
+						<a href="#" class="media__link"><img src="img/icon9.svg" alt="facebook"></a>
 					</div>
 				</div>
 				<div class="profile__icon">
@@ -202,11 +217,12 @@
 					</div>
 					<div class="profile__name">Ruth Woods</div>
 					<div class="profile__position">Data Scientist</div>
-					<div class="profile__info">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</div>
+					<div class="profile__info"><p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+					</div>
 					<div class="profile__media">
-						<img src="img/icon7.svg" alt="facebook">
-						<img src="img/icon8.svg" alt="twitter">
-						<img src="img/icon9.svg" alt="in">
+						<a href="#" class="media__link"><img src="img/icon7.svg" alt="facebook"></a>
+						<a href="#" class="media__link"><img src="img/icon8.svg" alt="facebook"></a>
+						<a href="#" class="media__link"><img src="img/icon9.svg" alt="facebook"></a>
 					</div>
 				</div>
 			</div>
@@ -263,12 +279,16 @@ Beverly Hills, CA 90210</div>
 		</div>
 		
 	</footer>
- 	</div>	<div class="footer__bottom">
+ 		
+ 	<div class="footer__bottom">
 			 <div class="footer__bottom--info">
 			 	Copyright © 2015 ActiveBox. All Rights Reserved Made with<br/>
 			 	<span class="name">
 			 	  by Kamal Chaneman</span>
 			 </div>
+			</div>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+			<script src="js/main.js"></script>	
 	</body>
 		
 </html>
